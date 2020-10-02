@@ -1,0 +1,52 @@
+.header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    height: 75px;
+}
+
+.header-logo,
+.header-menu-icon {
+    padding: 15px;
+}
+#close {
+    display: none;
+}
+.header a, 
+#dropdown-menu-content a {
+    color: black;
+    text-decoration: none;
+}
+.header .header-menu-content {
+    display: none;
+}
+#dropdown-menu-content {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    top: 75px;
+}
+#dropdown-menu-content a {
+    margin: 10px;
+}
+
+@media screen and (min-width: 600px) {
+    .header .header-logo {
+        justify-self: flex-start;
+    }
+    .header .header-menu-content {
+        display: flex;
+        flex-direction: row;
+    }
+    .header .header-menu-icon {
+      display: none;
+    }
+  }
