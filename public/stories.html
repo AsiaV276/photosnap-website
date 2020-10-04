@@ -5,16 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/stories.css">
   <title>Frontend Mentor | Photosnap Website Challenge</title>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+  </script>
+  <script> 
+  $(function(){
+    $("#header").load("header.html"); 
+    $("#footer").load("footer.html"); 
+  });
+  </script>
 </head>
 <body>
-
+  <div id="header"></div>
   Stories
   Features
   Pricing
 
   Get an invite
+  
+  <section id="stories-grid">
+    <div class="mountains story">
+      <div>
+        <h4>The Mountains</h4>
+        <p>by John Appleseed</p>
+        <a href="">Read Story<img src="./assets/shared/desktop/arrow.svg" alt=""></a>
+      </div>
+    </div>
+    <div class="cityscapes story">
+      <div>
+        <h4>Sunset Cityscapes</h4>
+        <p>by Benjamin Cruz</p>
+        <a href="">Read Story<img src="./assets/shared/desktop/arrow.svg" alt=""></a>
+      </div>
+    </div>
+    <div class="voyage story">
+      <div>
+        <h4>18 Days Voyage</h4>
+        <p>by Alexei Borodin</p>
+        <a href="">Read Story<img src="./assets/shared/desktop/arrow.svg" alt=""></a>
+      </div>
+    </div>
+    <div class="architecturals story">
+      <div>
+        <h4>Architecturals</h4>
+        <p>by Samantha Brooke</p>
+        <a href="">Read Story<img src="./assets/shared/desktop/arrow.svg" alt=""></a>
+      </div>
+    </div>
+  </section>
 
   Last month's featured story
 
@@ -122,5 +166,6 @@
 
   Copyright 2019. All Rights Reserved
 
+  <div id="footer"></div>
 </body>
 </html>

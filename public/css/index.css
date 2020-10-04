@@ -1,8 +1,60 @@
 * {
     margin: 0;
+    font-family: 'DM Sans', sans-serif;
 }
-
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.btn {
+    border: none;
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.image {
+    width: 100%;
+    height: auto;
+}
 main {
     margin-top: 80px;
-    height: 2000px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+}
+#create-share-section,
+#create-share-section .section-text a{
+    color: white;
+    background-color: black;
+}
+.section-text a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+.section-text {
+    padding: 80px 35px;
+}
+.section-text p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section-text span {
+    padding-right: 20px;
+}
+#beautiful-stories-section,
+#designed-section, 
+#beautiful-stories-section .section-text a,
+#designed-section .section-text a {
+    color: black;
+    background-color: white;
+}
+#stories-grid {
+    color: white;
 }
