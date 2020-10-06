@@ -14,7 +14,8 @@
     font-weight: lighter;
     padding-bottom: 3px;
 }
-.story div p:first-of-type {
+.story div p, 
+.story .date {
     font-size: 12px;
 }
 .story a {
@@ -43,5 +44,53 @@
 }
 .architecturals {
     background: url('../assets/stories/mobile/architecturals.jpg') no-repeat;
+    background-size: cover;
+}
+.world-tour {
+    background: url('../assets/stories/mobile/world-tour.jpg') no-repeat;
+    background-size: cover;
+}
+.unforeseen {
+    background: url('../assets/stories/mobile/unforeseen-corners.jpg') no-repeat;
+    background-size: cover;
+}
+.king-africa {
+    background: url('../assets/stories/mobile/king-on-africa.jpg') no-repeat;
+    background-size: cover;
+}
+.trip-nowhere {
+    background: url('../assets/stories/mobile/trip-to-nowhere.jpg') no-repeat;
+    background-size: cover;
+}
+.rage-sea {
+    background: url('../assets/stories/mobile/rage-of-the-sea.jpg') no-repeat;
+    background-size: cover;
+}
+.running-free {
+    background: url('../assets/stories/mobile/running-free.jpg') no-repeat;
+    background-size: cover;
+}
+.behind-waves {
+    background: url('../assets/stories/mobile/behind-the-waves.jpg') no-repeat;
+    background-size: cover;
+}
+.calm-waters {
+    background: url('../assets/stories/mobile/calm-waters.jpg') no-repeat;
+    background-size: cover;
+}
+.milky-way {
+    background: url('../assets/stories/mobile/milky-way.jpg') no-repeat;
+    background-size: cover;
+}
+.dark-forest {
+    background: url('../assets/stories/mobile/dark-forest.jpg') no-repeat;
+    background-size: cover;
+}
+.somwarpet {
+    background: url('../assets/stories/mobile/somwarpet.jpg') no-repeat;
+    background-size: cover;
+}
+.land-dreams {
+    background: url('../assets/stories/mobile/land-of-dreams.jpg') no-repeat;
     background-size: cover;
 }

@@ -8,3 +8,6 @@
     padding-top: 35px;
     padding-bottom: 20px;
 }
+#featured-section p {
+    color: gray;
+}

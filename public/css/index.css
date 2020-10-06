@@ -29,32 +29,51 @@ section {
     flex-direction: column;
 }
 #create-share-section,
-#create-share-section .section-text a{
+#create-share-section .section-text a, 
+#appalachia-section,
+#appalachia-section .section-text a,
+#features-section,
+#pricing-section,
+.beta-section {
     color: white;
     background-color: black;
+}
+.section-text {
+    padding: 80px 35px;
 }
 .section-text a {
     display: flex;
     text-decoration: none;
     align-items: center;
 }
-.section-text {
-    padding: 80px 35px;
-}
 .section-text p {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
+    color: gray;
 }
 .section-text span {
     padding-right: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.section-text {
+    /*padding-bottom: 20px;*/
 }
 #beautiful-stories-section,
-#designed-section, 
+#designed-section,
 #beautiful-stories-section .section-text a,
 #designed-section .section-text a {
     color: black;
     background-color: white;
 }
-#stories-grid {
+#stories-grid,
+.beta-section .section-text a {
     color: white;
+}
+.beta-section {
+    max-width: 100%;
+    height: auto;
+    background-image: url('../assets/shared/mobile/bg-beta.jpg');
+    background-size: cover;
 }
