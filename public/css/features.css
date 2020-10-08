@@ -1,4 +1,11 @@
+#features-section .image{
+    background: url('../assets/features/mobile/hero.jpg') no-repeat;
+    background-size: cover;
+    height: 300px;
+}
 #featured-section {
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 #featured-section div{
@@ -10,4 +17,32 @@
 }
 #featured-section p {
     color: gray;
+}
+@media screen and (min-width: 600px) {
+    #features-section .image{
+        background: url('../assets/features/tablet/hero.jpg') no-repeat;
+        background-size: cover;
+        height: 600px;
+    }
+    #featured-section div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 100px 100px 0px 100px;
+    }
+    #featured-section div:last-of-type {
+        margin-bottom: 100px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    #featured-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #featured-section div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+    }
 }

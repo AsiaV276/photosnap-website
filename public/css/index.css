@@ -28,18 +28,78 @@ section {
     display: flex;
     flex-direction: column;
 }
-#create-share-section,
-#create-share-section .section-text a, 
+#create-share-section .image {
+    background: url('../assets/home/mobile/create-and-share.jpg') no-repeat;
+    background-size: cover;
+    min-height: 294px;
+}
+#beautiful-stories-section .image {
+    background: url('../assets/home/mobile/beautiful-stories.jpg') no-repeat;
+    background-size: cover;
+    min-height: 294px;
+}
+#designed-section .image {
+    background: url('../assets/home/mobile/designed-for-everyone.jpg') no-repeat;
+    background-size: cover;
+    min-height: 294px;
+}
+@media screen and (min-width: 600px) {
+    section {
+        flex-direction: row;
+    }
+    #create-share-section,
+    #designed-section,
+    #features-section,
+    #pricing-section {
+        flex-direction: row-reverse;
+    }
+    #beautiful-stories-section,
+    #designed-section,
+    #features-section,
+    #pricing-section {
+        height: 600px;
+        align-items: center;
+    }
+    #create-share-section {
+        height: 650px;
+        align-items: center;
+    }
+    .section-text h1 {
+        font-size: 3rem;
+    }
+    .section-text p {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    #create-share-section .image {
+        background: url('../assets/home/tablet/create-and-share.jpg') no-repeat;
+        min-height: 650px;
+    }
+    #beautiful-stories-section .image {
+        background: url('../assets/home/tablet/beautiful-stories.jpg') no-repeat;
+        min-height: 600px;
+    }
+    #designed-section .image {
+        background: url('../assets/home/tablet/designed-for-everyone.jpg') no-repeat;
+        min-height: 600px;
+    }
+
+}
+#create-share-section, 
 #appalachia-section,
-#appalachia-section .section-text a,
 #features-section,
 #pricing-section,
 .beta-section {
     color: white;
     background-color: black;
 }
+#create-share-section .section-text a,
+#appalachia-section .section-text a {
+    color: white;
+}
 .section-text {
-    padding: 80px 35px;
+    padding: 35px;
+    align-items: center;
 }
 .section-text a {
     display: flex;
@@ -56,9 +116,6 @@ section {
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 1px;
-}
-.section-text {
-    /*padding-bottom: 20px;*/
 }
 #beautiful-stories-section,
 #designed-section,

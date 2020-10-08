@@ -1,3 +1,8 @@
+#appalachia-section .image {
+    background: url('../assets/stories/mobile/moon-of-appalacia.jpg') no-repeat;
+    background-size: cover;
+    height: 320px;
+}
 .story {
     max-width: 100%;
     height: auto;
@@ -93,4 +98,59 @@
 .land-dreams {
     background: url('../assets/stories/mobile/land-of-dreams.jpg') no-repeat;
     background-size: cover;
+}
+
+@media screen and (min-width: 600px) {
+    #appalachia-section .image {
+        display: none;
+    }
+    #appalachia-section .section-text a {
+        background-color: transparent;
+    }
+    #appalachia-section .section-text {
+        background: url('../assets/stories/tablet/moon-of-appalacia.jpg') no-repeat;
+        background-size: cover;
+        height: 650px;
+        padding-right: 350px;
+        align-items: center;
+        padding-top: auto;
+        padding-bottom: auto;
+    }
+    #appalachia-section .section-text p {
+        color: white;
+    }
+    #stories-grid {
+        flex-wrap: wrap;
+    }
+    .story {
+        width: 50%;
+    }
+    .story div {
+        background-image: linear-gradient(rgba(0,0,0,0%), rgba(0,0,0,80%));
+        width: 100%;
+        height: auto;
+        padding: 300px 0px 25px 0px;
+    }
+    .story div h4,
+    .story div p,
+    .story div a {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .mountains {
+        background: url('../assets/stories/desktop/mountains.jpg') no-repeat;
+        background-size: cover;
+    }
+    .cityscapes {
+        background: url('../assets/stories/desktop/cityscapes.jpg') no-repeat;
+        background-size: cover;
+    }
+    .voyage {
+        background: url('../assets/stories/desktop/18-days-voyage.jpg') no-repeat;
+        background-size: cover;
+    }
+    .architecturals {
+        background: url('../assets/stories/desktop/architecturals.jpg') no-repeat;
+        background-size: cover;
+    }
 }

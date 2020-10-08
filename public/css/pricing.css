@@ -1,0 +1,13 @@
+#pricing-section .image {
+    background: url('../assets/pricing/mobile/hero.jpg') no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+@media screen and (min-width: 600px) {
+    #pricing-section .image{
+        background: url('../assets/pricing/tablet/hero.jpg') no-repeat;
+        background-size: cover;
+        height: 600px;
+    }
+}
